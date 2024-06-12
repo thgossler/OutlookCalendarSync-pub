@@ -76,35 +76,41 @@ Let me know whether this fits your needs or if you have any suggestions for impr
 
 ## Usage tips
 
-Many users may not be used to regular expressions. Here is a very short intro:
+Many users might not be familiar with regular expressions, so here is a brief introduction to using Regular Expressions:
 
-In both the settings fields where regular expressions are supported the easiest way 
-to exclude an appointment is to use one of the patterns mentioned in the following example.
+In the settings fields where regular expressions are supported, you can easily exclude an appointment by using specific patterns. Here is an example to illustrate:
 
-Example:
+**Example:**
 
-Let's say you want ensure that appointments with a title starting with "Lunch" 
-are not synced. Then you would add the following one line to the corresponding 
-settings field:
-
-`^Lunch`
-
-This pattern will match any title starting with "Lunch" and exclude it from syncing. 
-The `^` symbol says that the word `Lunch` must be right at the beginning of the title
-to match.
-
-If Lunch may occur anywhere in the title and not only at the start, then you can simply use:
+Suppose you want to ensure that appointments with titles containing the word "Lunch" are not synchronized. You would add the following line to the appropriate settings field:
 
 `Lunch`
 
-The patterns are case-sensitive. If you want to let both "Lunch" and "lunch" match, then
-you would use:
+This pattern will match any title containing "Lunch" and exclude it from syncing. 
+
+If "Lunch" shall only match at the beginning of the title, you can use:
+
+`^Lunch`
+
+The `^` symbol indicates that the word "Lunch" must be at the beginning of the title to match.
+
+"Lunch" at the end of a title would be matched by `Lunch$`.
+
+Exactly "Lunch" as the title would be matched by `^Lunch$`.
+
+Please note that these patterns are case-sensitive. To match both "Lunch" and "lunch," you would use e.g. or the other ways described below:
 
 `^(L|l)unch`
 
-If you want to understand .NET regular expressions better, you can find a good
-quick reference [here](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf) 
-or simply query your favorite search engine for e.g. "Learn .NET regular expressions".
+**Important Aspects of .NET Regular Expressions**
+
+- **Case Sensitivity:** By default, .NET regular expressions are case-sensitive. To perform a case-insensitive match, you can use the `(?i)` option. For example, `(?i)Lunch` will match "Lunch," "lunch," "LUNCH," etc.
+
+- **Special Characters:** Certain characters have special meanings in regular expressions (e.g., `.`, `*`, `?`, `+`). To match these characters literally, you need to escape them with a backslash (`\`). For example, to match a period, use `\.`.
+
+For a deeper understanding of .NET regular expressions, you can refer to a comprehensive [quick reference guide](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf) or search online for resources using terms like "Learn .NET regular expressions."
+
+By familiarizing yourself with these basics and critical aspects, you can effectively use regular expressions to manage your appointments and other tasks.
 
 
 ## Roadmap
