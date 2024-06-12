@@ -76,29 +76,29 @@ Let me know whether this fits your needs or if you have any suggestions for impr
 
 ## Usage tips
 
-Many users might not be familiar with regular expressions, so here is a brief introduction to using Regular Expressions:
+Many users might not be familiar with regular expressions, so here is a brief introduction:
 
-In the settings fields where regular expressions are supported, you can easily exclude an appointment by using specific patterns. Here is an example to illustrate:
+In the settings fields where regular expressions are supported, you can easily exclude an event by using specific patterns. Here is an example to illustrate:
 
 **Example:**
 
-Suppose you want to ensure that appointments with titles containing the word "Lunch" are not synchronized. You would add the following line to the appropriate settings field:
+Suppose you want to ensure that events (i.e. Outlook appointments) with subjects (i.e. titles) containing the word "Lunch" are not getting synchronized. You would add the following line to the appropriate settings field:
 
 `Lunch`
 
 This pattern will match any title containing "Lunch" and exclude it from syncing. 
 
-If "Lunch" shall only match at the beginning of the title, you can use:
+If subjects shall only match when starting with "Lunch", you can use:
 
 `^Lunch`
 
 The `^` symbol indicates that the word "Lunch" must be at the beginning of the title to match.
 
-"Lunch" at the end of a title would be matched by `Lunch$`.
+"Lunch" at the end of a title would match with `Lunch$`.
 
-Exactly "Lunch" as the title would be matched by `^Lunch$`.
+An exact subject of "Lunch" would match with `^Lunch$`.
 
-Please note that these patterns are case-sensitive. To match both "Lunch" and "lunch," you would use e.g. or the other ways described below:
+Please note that these patterns are case-sensitive. To match both "Lunch" and "lunch," you have to use one the following ways to match in a case-insensitive manner:
 
 `^(L|l)unch`
 
