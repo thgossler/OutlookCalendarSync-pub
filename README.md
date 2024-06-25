@@ -1,8 +1,6 @@
 <!-- SHIELDS -->
 <div align="center">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
@@ -33,29 +31,31 @@
 
 ## Overview
 
-This Windows desktop program syncs your Microsoft Outlook Desktop calendar selectively to your iCloud calendar.
+This Windows desktop program synchronizes your appointments from your Microsoft Outlook Desktop (classic) calendar 
+selectively and one-way to your personal iCloud calendar with data protection and privacy in mind.
 
-I worked on this some time ago and it's been doing a great job for me. Recently, I decided to share it with 
-the community. I have polished it a bit for being usable by a wider audience. I hope you find it useful too. 
-Be fair and consider donating if you like it.
+I created this program a long time ago and it's been doing a great job for me personally. Recently, I decided to make
+it available for others as well. I have polished it for being usable by a wider audience. I hope you find it useful, too. 
 
-And here's the typical use scenario for the tool, you may find your personal use case in it:
+And here's the typical use scenario for the tool:
 
-Imagine you're an employee at a company that uses Microsoft Outlook for scheduling and managing appointments. 
-Your employer has strict policies and does not provide an iPhone for work, nor do they allow you to use your 
-personal phone for work-related activities, nor do they allow you to connect a sync tool to your Microsoft 
-Graph, nor do they allow you to install iCloud for Windows and sync the whole calendar. This can be a bit 
-of a hassle, especially when you want to keep track of your work appointments outside of your office hours.
+As a busy professional managing both work and personal commitments, keeping track of your work schedule outside the
+office can be challenging. You might prefer using your personal iPhone over a company phone for convenience, or perhaps
+you don't have a work phone at all. However, company policies often restrict the use of personal devices for work
+purposes, making it difficult to stay updated with your work calendar.
 
-This is where the OutlookCalendarSync tool comes in handy. It's designed to sync your Outlook calendar 
-selectively to your personal iCloud calendar via the Outlook Desktop application. The tool respects your privacy 
-and your company's data protection concerns by only syncing the titles and locations of your work appointments, 
-nothing more, directly from your local desktop to your iCloud calendar. This way, you can stay updated with 
-your work schedule without compromising on your privacy or violating your company's policies.
+Introducing Outlook Calendar Sync - the perfect solution for employees who use Microsoft Outlook but can't sync their
+work calendars to their personal iPhones due to company restrictions. With Outlook Calendar Sync, you can seamlessly
+transfer your Outlook appointments to your personal iCloud calendar via the Outlook Desktop application.
 
-So, even if you're away from your work computer, you can still have a glance at your upcoming work 
-appointments right from your personal device, helping you manage your time more effectively. And, when you
-don't want to be confronted with work appointments, just hide the corresponding iCloud calendar.
+As a long-time employee of large companies with many regulations myself, I understand the importance of maintaining both
+your privacy and adherence to company policies. My tool only syncs the titles and locations of your work appointments,
+ensuring your data remains secure. Now, you can effortlessly manage your work-life balance by staying updated with your
+work schedule on your personal device without compromising privacy or violating company rules.
+
+Stay on top of your appointments, whether you're at home or on the go, and easily hide your work calendar as separate
+iCloud calendar when you need personal time. Outlook Calendar Sync helps you keep your professional and personal lives
+in perfect harmony :smile:
 
 Let me know whether this fits your needs or if you have any suggestions for improvements.
 
@@ -113,21 +113,33 @@ For a deeper understanding of .NET regular expressions, you can refer to a compr
 By familiarizing yourself with these basics and critical aspects, you can effectively use regular expressions to manage your appointments and other tasks.
 
 
+## Download
+
+You can find the latest version of the program on the 
+<a href="https://OutlookCalendarSync.apps.thomas-gossler.de" target="_blank">Homepage</a> 
+or directly download it from 
+[here](https://licensingtg.blob.core.windows.net/downloads/OutlookCalendarSync-Setup.exe).
+
+
 ## Roadmap
 
 - [ ] Ask to create new iCloud calendar if not exist
 - [ ] Option to exclude appointments with certain Outlook categories
-- [ ] Further improvements based on comunity feedback
+- [ ] Allow deletion of events in the source calendar from the target calendar
 - [ ] Support more target calendars than iCloud (e.g. Google calendar)
+- [ ] Support the new Outlook app and/or the Microsoft Graph API
+- [ ] Use a local AI model for anonymizing event titles smartly
+- [ ] Further improvements based on feedback
 
 
-## Donate
+## Technology
 
-If you wish to use the tool, please consider donating an amount that reflects its value to you. You can do so either via PayPal
-
-[![Donate via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=JVG7PFJ8DMW7J)
-
-or via [GitHub Sponsors](https://github.com/sponsors/thgossler).
+- .NET 8 / C#
+- WinForms
+- iCloud.Dav.Calendar (.NET library for iCloud calendar access)
+- Microsoft Azure Cloud (for hosting the backend service for licence handling)
+- Paddle (for global payment processing)
+- WebView2 (for enabling in-app purchase)
 
 
 <!-- MARKDOWN LINKS & IMAGES (https://www.markdownguide.org/basic-syntax/#reference-style-links) -->
