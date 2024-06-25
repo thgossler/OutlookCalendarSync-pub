@@ -22,9 +22,9 @@
     ·
     <a href="https://github.com/thgossler/OutlookCalendarSync-pub/issues">Request Feature</a>
     ·
-    <a href="https://github.com/sponsors/thgossler">Sponsor project</a>
-    .
-    <a href="https://www.paypal.com/donate/?hosted_button_id=JVG7PFJ8DMW7J">Donate via PayPal</a>
+    <a href="https://OutlookCalendarSync.apps.thomas-gossler.de">Homepage</a>
+    ·
+    <a href="https://licensingtg.blob.core.windows.net/downloads/OutlookCalendarSync-Setup.exe">Download</a>
   </p>
 </div>
 
