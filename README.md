@@ -110,6 +110,8 @@ Please note that these patterns are case-sensitive. To match both "Lunch" and "l
 
 For a deeper understanding of .NET regular expressions, you can refer to a comprehensive [quick reference guide](https://download.microsoft.com/download/D/2/4/D240EBF6-A9BA-4E4F-A63F-AEB6DA0B921C/Regular%20expressions%20quick%20reference.pdf) or search online for resources using terms like "Learn .NET regular expressions."
 
+This [online tool](https://regex101.com/r/mziATF/1) will help you to write and test .NET regular expressions.
+
 By familiarizing yourself with these basics and critical aspects, you can effectively use regular expressions to manage your appointments and other tasks.
 
 
