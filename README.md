@@ -22,7 +22,7 @@
     ·
     <a href="https://github.com/thgossler/OutlookCalendarSync-pub/issues">Request Feature</a>
     ·
-    <a href="https://OutlookCalendarSync.apps.thomas-gossler.de">Homepage</a>
+    <a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/">Homepage</a>
     ·
     <a href="https://licensingtg.blob.core.windows.net/downloads/OutlookCalendarSync-Setup.exe">Download</a>
   </p>
@@ -125,12 +125,15 @@ or directly download it from
 
 ## Roadmap
 
-- [ ] Ask to create new iCloud calendar if not exist
-- [ ] Option to exclude appointments with certain Outlook categories
-- [ ] Allow deletion of events in the source calendar from the target calendar
-- [ ] Support more target calendars than iCloud (e.g. Google calendar)
-- [ ] Support the new Outlook app and/or the Microsoft Graph API
-- [ ] Use a local AI model for anonymizing event titles smartly
+- [ ] Option to exclude appointments with certain Outlook categories or private flag
+- [ ] Option to allow deletion of events in the source calendar by deleting them from the target calendar
+- [ ] Introduce support for UI dark mode with update to .NET 9
+- [ ] Support the new Outlook app by directly using the Microsoft Graph
+- [ ] Configure a specific time period (start/end date) for sync instead of a floating time window (+/- 7 days)
+- [ ] Support multiple iCloud sync target configurations in parallel
+- [ ] Option to sync appointments to multiple iCloud calendars depending on their Outlook category
+- [ ] Support more target calendar types than iCloud (e.g. Google calendar)
+- [ ] Use the Windows Copilot Runtime to remove personal information from event titles before sync
 - [ ] Further improvements based on feedback
 
 
