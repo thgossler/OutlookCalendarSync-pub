@@ -125,15 +125,18 @@ or directly download it from
 
 ## Roadmap
 
-- [ ] Option to exclude appointments with certain Outlook categories or private flag
-- [ ] Option to allow deletion of events in the source calendar by deleting them from the target calendar
-- [ ] Introduce support for UI dark mode with update to .NET 9
-- [ ] Support the new Outlook app by directly using the Microsoft Graph
-- [ ] Configure a specific time period (start/end date) for sync instead of a floating time window (+/- 7 days)
+- [ ] Option to exclude appointments with certain Outlook categories or private
+  flag
+- [ ] Support more target calendar types than iCloud (e.g. Google calendar, Exchange)
 - [ ] Support multiple iCloud sync target configurations in parallel
-- [ ] Option to sync appointments to multiple iCloud calendars depending on their Outlook category
-- [ ] Support more target calendar types than iCloud (e.g. Google calendar)
-- [ ] Use the Windows Copilot Runtime to remove personal information from event titles before sync
+- [ ] Support the new Outlook app by directly using the Microsoft Graph
+- [ ] Introduce support for UI dark mode with update to .NET 9
+- [ ] Configure a specific time period (start/end date) for sync instead of a
+  floating time window (+/- 7 days)
+- [ ] Option to sync appointments to multiple iCloud calendars depending on
+  their Outlook category
+- [ ] Use the Windows Copilot Runtime to remove personal information from event
+  titles before sync
 - [ ] Further improvements based on feedback
 
 
