@@ -24,7 +24,7 @@
     ·
     <a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/">Homepage</a>
     ·
-    <a href="https://licensingtg.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe">Download</a>
+    <a href="https://thomasgossler.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe">Download</a>
   </p>
 </div>
 
@@ -120,7 +120,7 @@ By familiarizing yourself with these basics and critical aspects, you can effect
 You can find the latest version of the program on the 
 <a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/" target="_blank">Homepage</a> 
 or directly download it from 
-[here](https://licensingtg.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe).
+[here](https://thomasgossler.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe).
 
 
 ## Roadmap
