@@ -13,10 +13,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">OutlookCalendarSync</h1>
+  <h1 align="center">Outlook Calendar Sync</h1>
 
   <p align="center">
-    Sync your Outlook Desktop calendar selectively to your iCloud calendar.
+    Think different. Sync different.<br /><br />
+    Synchronize a selection of your Outlook work appointments to your personal iCloud calendar.
     <br />
     <a href="https://github.com/thgossler/OutlookCalendarSync-pub/issues">Report Bug</a>
     ·
@@ -31,13 +32,14 @@
 
 ## Overview
 
-This Windows desktop program synchronizes your appointments from your Microsoft Outlook Desktop (classic) calendar 
-selectively and one-way to your personal iCloud calendar with data protection and privacy in mind.
+This Windows desktop program synchronizes your (work) appointments from your Microsoft Outlook Desktop (classic) calendar 
+selectively and one-way to your (personal) iCloud calendar with data protection and privacy in mind.
 
 I created this program a long time ago and it's been doing a great job for me personally. Recently, I decided to make
 it available for others as well. I have polished it for being usable by a wider audience. I hope you find it useful, too. 
 
-And here's the typical use scenario for the tool:
+And here's the typical use scenario for the tool (see also the [homepage](https://www.apps.thomas-gossler.de/OutlookCalendarSync/) 
+for a more detailed presentation):
 
 As a busy professional managing both work and personal commitments, keeping track of your work schedule outside the
 office can be challenging. You might prefer using your personal iPhone over a company phone for convenience, or perhaps
@@ -125,15 +127,14 @@ or directly download it from
 
 ## Roadmap
 
-- [ ] Option to exclude appointments with certain Outlook categories or private
-  flag
-- [ ] Support more target calendar types than iCloud (e.g. Google calendar, Exchange)
-- [ ] Support multiple iCloud sync target configurations in parallel
 - [ ] Support the new Outlook app by directly using the Microsoft Graph
+- [ ] Option to exclude appointments with certain Outlook categories or private flag
+- [ ] Support multiple full sync target configurations in parallel
+- [ ] Support more target calendar types than iCloud (e.g. Google calendar, Exchange)
 - [ ] Introduce support for UI dark mode with update to .NET 9
 - [ ] Configure a specific time period (start/end date) for sync instead of a
   floating time window (+/- 7 days)
-- [ ] Option to sync appointments to multiple iCloud calendars depending on
+- [ ] Option to sync appointments to different sync targets depending on
   their Outlook category
 - [ ] Use the Windows Copilot Runtime to remove personal information from event
   titles before sync
