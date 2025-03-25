@@ -61,6 +61,9 @@ in perfect harmony :smile:
 
 Let me know whether this fits your needs or if you have any suggestions for improvements.
 
+_**Note:** My plan is to open source it completely once I have sold 50k licenses. So, if you should be interested to get access
+to the source code and contribute or create your own version from it, then help me promote it._
+
 
 ## Features
 
@@ -74,6 +77,15 @@ Let me know whether this fits your needs or if you have any suggestions for impr
 - Support automatic start via Windows task scheduler (or startup folder as fallback)
 - Should work on all supported Windows 10+ versions (tested on 64 bit Intel/ARM, classic Outlook Desktop 2019+ with COM interface)
 - Allows to reviewing the log stream when the console window is shown
+
+
+## Data Privacy
+
+Because I do not collect any data from the program, I am unable to see if you experience any issues 
+while using it. I kindly ask that you appreciate this commitment to high privacy standards at a low, 
+fixed price (with no recurring subscription fees). Instead of posting complaints publicly, please 
+provide your feedback directly by submitting an issue on the page linked above. If you're unable to do 
+so, feel free to contact me via email (details available on the website).
 
 
 ## Usage tips
