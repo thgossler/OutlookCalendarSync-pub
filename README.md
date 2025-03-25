@@ -127,18 +127,18 @@ or directly download it from
 
 ## Roadmap
 
-- [ ] Support the new Outlook app by directly using the Microsoft Graph
-- [ ] Option to exclude appointments with certain Outlook categories or private flag
-- [ ] Support multiple full sync target configurations in parallel
 - [ ] Support more target calendar types than iCloud (e.g. Google calendar, Exchange)
-- [ ] Introduce support for UI dark mode with update to .NET 9
-- [ ] Configure a specific time period (start/end date) for sync instead of a
-  floating time window (+/- 7 days)
+- [ ] Support the new Outlook app (the classic Outlook is supported by Microsoft at least until 2026)
+- [ ] Option to exclude appointments with certain Outlook categories or private flag
+- [ ] Support multiple sync target configurations in parallel (e.g. iCloud & Google calendar)
 - [ ] Option to sync appointments to different sync targets depending on
   their Outlook category
+- [ ] Configure a specific time period (start/end date) for sync instead of a
+  floating time window (+/- 7 days)
+- [ ] Introduce support for UI dark mode with update to .NET 10 LTS
 - [ ] Use the Windows Copilot Runtime to remove personal information from event
   titles before sync
-- [ ] Further improvements based on feedback
+- [ ] Further improvements based on your feedback :-)
 
 
 ## Technology
