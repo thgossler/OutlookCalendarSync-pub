@@ -17,7 +17,7 @@
 
   <p align="center">
     Think different. Sync different.<br /><br />
-    Synchronize a selection of your Outlook work appointments to your personal iCloud calendar.
+    Synchronize a selection of your Outlook work appointments to your personal calendar.
     <br />
     <a href="https://github.com/thgossler/OutlookCalendarSync-pub/issues">Report Bug</a>
     ·
@@ -33,7 +33,7 @@
 ## Overview
 
 This Windows desktop program synchronizes your (work) appointments from your Microsoft Outlook Desktop (classic) calendar 
-selectively and one-way to your (personal) iCloud calendar with data protection and privacy in mind.
+selectively and one-way to a (personal) target calendar (iCloud/Google) with data protection and privacy in mind.
 
 I created this program a long time ago and it's been doing a great job for me personally. Recently, I decided to make
 it available for others as well. I have polished it for being usable by a wider audience. I hope you find it useful, too. 
@@ -47,29 +47,30 @@ you don't have a work phone at all. However, company policies often restrict the
 purposes, making it difficult to stay updated with your work calendar.
 
 Introducing Outlook Calendar Sync - the perfect solution for employees who use Microsoft Outlook but can't sync their
-work calendars to their personal iPhones due to company restrictions. With Outlook Calendar Sync, you can seamlessly
-transfer your Outlook appointments to your personal iCloud calendar via the Outlook Desktop application.
+work calendars to their personal smartphone due to company restrictions. With Outlook Calendar Sync, you can seamlessly
+transfer your Outlook appointments to your personal calendar via the Outlook Desktop application.
 
 As a long-time employee of large companies with many regulations myself, I understand the importance of maintaining both
-your privacy and adherence to company policies. My tool only syncs the titles and locations of your work appointments,
-ensuring your data remains secure. Now, you can effortlessly manage your work-life balance by staying updated with your
+your privacy and adherence to company policies. My tool optionally only syncs the titles and locations of your work appointments,
+ensuring your data remains secure. Now, you can effortlessly manage your work-life balance by staying up-to-date with your
 work schedule on your personal device without compromising privacy or violating company rules.
 
 Stay on top of your appointments, whether you're at home or on the go, and easily hide your work calendar as separate
-iCloud calendar when you need personal time. Outlook Calendar Sync helps you keep your professional and personal lives
+calendar when you need personal time. Outlook Calendar Sync helps you keep your professional and personal lives
 in perfect harmony :smile:
 
 Let me know whether this fits your needs or if you have any suggestions for improvements.
 
 _**Note:** My plan is to open source it completely once I have sold 50k licenses. So, if you should be interested to get access
-to the source code and contribute or create your own version from it, then help me promote it._
+to the source code and contribute or create your own version of it, then help me promote it._
 
 
 ## Features
 
-- Synchronizes Outlook calendar events to an iCloud calendar (one-way, filtered)
+- Synchronizes Outlook calendar events to a target calendar (one-way, filtered)
+- Supports iCloud and Google as target calendars, more to come
 - Default configuration settings are privacy by default and design (see data privacy policy)
-- Syncs reliably into an existing iCloud calendar (empty or not) without affecting existing entries
+- Syncs reliably into an existing target calendar (empty or not) without affecting existing entries
 - Flexible configuration via SyncSettings.json (auto-reload) and/or config UI
 - Selectively ignores events based on blacklists of regular expressions
 - Configure regular expression transformation patterns for event titles in config file
@@ -139,7 +140,7 @@ or directly download it from
 
 ## Roadmap
 
-- [ ] Support more target calendar types than iCloud (e.g. Google calendar, Exchange)
+- [ ] Support more target calendar types (e.g. Outlook.com/Exchange)
 - [ ] Support the new Outlook app (the classic Outlook is supported by Microsoft at least until 2026)
 - [ ] Option to exclude appointments with certain Outlook categories or private flag
 - [ ] Support multiple sync target configurations in parallel (e.g. iCloud & Google calendar)
@@ -155,7 +156,7 @@ or directly download it from
 
 ## Technology
 
-- .NET 8 / C#
+- .NET 9 / C#
 - WinForms
 - iCloud.Dav.Calendar (.NET library for iCloud calendar access)
 - Microsoft Azure Cloud (for hosting the backend service for licence handling)
