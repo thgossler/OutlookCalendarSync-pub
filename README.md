@@ -23,7 +23,7 @@
     ·
     <a href="https://github.com/thgossler/OutlookCalendarSync-pub/issues">Request Feature</a>
     ·
-    <a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/">Homepage</a>
+    <a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/?utm_source=GitHub">Homepage</a>
     ·
     <a href="https://thomasgossler.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe">Download</a>
   </p>
@@ -38,7 +38,7 @@ selectively and one-way to a (personal) target calendar (iCloud/Google) with dat
 I created this program a long time ago and it's been doing a great job for me personally. Recently, I decided to make
 it available for others as well. I have polished it for being usable by a wider audience. I hope you find it useful, too. 
 
-And here's the typical use scenario for the tool (see also the [homepage](https://www.apps.thomas-gossler.de/OutlookCalendarSync/) 
+And here's the typical use scenario for the tool (see also the [homepage](https://www.apps.thomas-gossler.de/OutlookCalendarSync/?utm_source=GitHub) 
 for a more detailed presentation):
 
 As a busy professional managing both work and personal commitments, keeping track of your work schedule outside the
@@ -133,7 +133,7 @@ By familiarizing yourself with these basics and critical aspects, you can effect
 ## Download
 
 You can find the latest version of the program on the 
-<a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/" target="_blank">Homepage</a> 
+<a href="https://www.apps.thomas-gossler.de/OutlookCalendarSync/?utm_source=GitHub" target="_blank">Homepage</a> 
 or directly download it from 
 [here](https://thomasgossler.blob.core.windows.net/outlookcalendarsync/OutlookCalendarSync-Setup.exe).
 
